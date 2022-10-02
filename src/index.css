@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(180deg, #5dc4ff60, #5dc4ff);
+
+  justify-content: center;
+  align-items: center;
+}
