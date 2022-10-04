@@ -9,10 +9,12 @@ export function Home() {
   const [time, setTime] = useState();
 
   useEffect(() => {
-    setInterval(() => {
+    const interval = setInterval(() => {
       const currentTime = getCurrentTime();
       setTime(currentTime);
     }, 1000);
+
+    return () => clearInterval(interval);
   }, []);
 
   return (
