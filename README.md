@@ -10,7 +10,7 @@
 
 <p align='center'>
     Gravei o passo a passo do conteúdo do repositório, vocês podem acompanhar pelo link abaixo: </br>
-    <a href='' target='blank'>
+    <a href='https://youtu.be/NuNWoibKpxI' target='blank'>
        How to create a Digital Watch with React?
     </a>
 </p>
