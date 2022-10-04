@@ -1,8 +1,11 @@
 export function formatTime(time) {
-  const isValid = String(time).length === 2;
+  const timeInString = String(time);
+
+  const isValid = timeInString.length === 2;
 
   if (isValid) return time;
 
-  const newTime = `0${time}`;
+  const newTime = timeInString.padStart(2, 0);
+
   return newTime;
 }
